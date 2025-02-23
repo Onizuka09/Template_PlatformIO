@@ -14,6 +14,13 @@ cd /path-to-dir/where/get-platformio.py/is-located
 # run it
 python get-platformio.py
 
+# update the envirronement path variable 
+# Open .bashrc locate in the $HOME PATH 
+
+export PATH="$PATH:$HOME/.platformio/penv/bin/"
+
+# exit the file and source the .bashrc file 
+source $HOME/.bashrc
 ```
 > NOTE <br> 
 > for more INFO visit the [plaftromIO](https://docs.platformio.org/en/latest/core/installation/methods/installer-script.html) website
