@@ -3,8 +3,20 @@ This repo is a template project, for using ESP32 with platformIO.
 I use platform IO CLI. 
 
 ```bash
-pip3 install platformIO
+curl -fsSL -o get-platformio.py https://raw.githubusercontent.com/platformio/platformio-core-installer/master/get-platformio.py
+python3 get-platformio.py
 ```
+then run the script 
+
+```bash
+cd /path-to-dir/where/get-platformio.py/is-located
+
+# run it
+python get-platformio.py
+
+```
+> NOTE <br> 
+> for more INFO visit the [plaftromIO](https://docs.platformio.org/en/latest/core/installation/methods/installer-script.html) website
 
 By manipulating `platformio.ini`, you can set it to your needs. 
 
